@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items_list>
+
+<clothes>
+<name>Women White Crop Top</name>
+<price>Rs.1000</price>
+<description>White woven solid layered styled back top, has a shoulder straps</description>
+<brand>AND</brand>
+<material>Polyester </material>
+</clothes>
+
+<clothes>
+<name>Women Blue Denim Jeans</name>
+<price>Rs.1500</price>
+<description>Blue light wash 5-pocket mid-rise jeans, clean look with light fade, has a button and zip closure, waistband with belt loops</description>
+<brand>Xpose</brand>
+<material>Cotton, polyester and elastane</material>
+</clothes>
+
+<clothes>
+<name> Men Green Solid Polo Collar T-shirt</name>
+<price>Rs.1400</price>
+<description>Green solid polo T-shirt, has a polo collar, short sleeves</description>
+<brand>U.S.Polo Assn.</brand>
+<material>100% cotton</material>
+</clothes>
+
+<clothes>
+<name> Men Black Skinny Fit Mid-Rise Clean Look Stretchable Jeans</name>
+<price>Rs.1600</price>
+<description>Black dark wash 5-pocket mid-rise jeans, clean look with no fade, has a button and zip closure, waistband with belt loops</description>
+<brand>Roadster</brand>
+<material>98% cotton, 2% elastane</material>
+</clothes>
+
+<clothes>
+<name> Women Navy Blue and Green Floral Print Fit and Flare Dress</name>
+<price>Rs.1500</price>
+<description>Navy blue and green floral print woven fit and flare dress, has shoulder straps with ruffled detail, sleeveless, concealed zip closure, curved flared hem</description>
+<brand>FOREVER 21</brand>
+<material>Viscose rayon</material>
+</clothes>
+
+<clothes>
+<name> Deep Navy Single-Breasted Contemporary Fit Formal Suit</name>
+<price>Rs.10000</price>
+<description>Navy blue formal suit
+Navy blue formal blazer, has a notched lapel, single-breasted with double button closures, long sleeves, a chest pocket, two welt pockets, a back slit, and an attached lining with three pockets
+Navy blue mid-rise formal trousers, has four pockets, a zip fly with a hook-and-bar and a button closure, and a waistband with belt loops</description>
+<brand>Raymond</brand>
+<material>55% polyester, 45% wool</material>
+</clothes>
+
+
+</Items_list>

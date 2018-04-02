@@ -1,6 +1,6 @@
 *{
-  margin: 0px;
-  padding: 0px;
+  margin:0px;
+  padding:0px;
 }
 body{
   background-color:white;
@@ -12,20 +12,27 @@ header{
   position:fixed;
   background: black;
   color: white;
-  padding: 20px;
-  font: bold 20px Tahoma;
+  padding: 13px;
+  font: bold 16px Tahoma;
   border-bottom: 5px solid darkseagreen;
+}
+header h1{
+  padding-top: 8px;
+  padding-left: 8px;
+}
+ h3{
+  display: inline-block;
+  float:left;
 }
 nav ul li{
   display: inline-block;
   list-style: none;
-  padding:8px;
-  padding-bottom: 4px;
+  padding:4px;
 }
 nav ul li a{
   padding-top:10px;
-  padding-left:35px;
-  padding-right:35px;
+  padding-left:30px;
+  padding-right:30px;
   color:white;
   width:75%;
   font: solid 15px Tahoma;
@@ -35,24 +42,18 @@ nav ul li a:hover {
   text-decoration:  none;
   font-weight: none
 }
-button{
-  padding-left:160px
-}
 center
 {
-  padding-top:150px;
+  padding-top:180px;
 }
-p{
-  padding:10px;
-  font:  24px Tahoma;
+center p{
+  font: bold 30px Tahoma;
+  color:black
+  padding-bottom: 10px;
 }
-section{
-  padding:15px;
-  font: bold 25px Tahoma;
-  margin:10px;
-}
-table{
- padding:15px;
- margin:10px;
- font:  20px Tahoma;
+center form{
+  padding-top:30px;
+  padding-bottom: 30px;
+  font: solid 30px Tahoma;
+  color:black;
 }

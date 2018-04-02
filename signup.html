@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Designers Pick- Online Shopping for Women and Mens</title>
+  <link rel="stylesheet" href="style2.css">
+  <script type="text/javascript">
+  function validate()
+{
+var FName = document.form.firstname.value;
+var LName = document.form.lastname.value;
+var Email = document.form.email.value;
+var Phone = document.form.phone.value;
+var password=document.form.password.value;
+var reg = /^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,4})$/;
+console.log(Name);
+if(FName==""){
+alert("Please enter your name");
+FName.focus();
+return false;
+}
+if(LName==""){
+alert("Please enter vyour last name");
+LName.focus();
+return false;
+}
+if(Email=="" && !reg.test(Email)){
+alert("Incorrect Email Id");
+Email.focus();
+return false;
+}
+if(Phone=="" && isNaN(Phone)){
+alert("Enter Numeric Value for phone number");
+Phone.focus();
+return false;
+}
+if(password!= "" ) {
+     if(password.length < 6) {
+       alert(" Password must contain at least six characters!");
+       password.focus();
+       return false;
+     }
+}
+} </script>
+</head>
+<body>
+  <header>
+     <h1>DesignersPick</h1>
+      <nav>
+       <ul>
+            <li ><a  href="homepage.html">Home</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li ><a  href ="contact.html">Contact Us</a></li>
+             <li ><a  href="login.html">Login</a></li>
+            <li ><a  href="signup.html">Sign Up</a></li>
+            <li><a href="items.xml">Popular Items</li>
+            <li ><a  href="exchange.html">Exchange or Return</a></li>
+      </ul>
+    </nav>
+  </header>
+<div>
+  <p>SIGN UP </p>
+ </form>
+  <form  method="post" action="index.jsp" name="form" onsubmit="return(validate());">
+   <label for="fname">First Name</label>
+   <input type="text" name="firstname">
+   <br><br>
+   <label for="fname">Last Name</label>
+   <input type="text" name="lastname">
+   <br><br>
+    <label for="fname">Password</label>
+    <input type="password" name="password">
+   <br><br>
+    <label for="fname">Email</label>
+    <input type="text" name="email" >
+    <br><br>
+     <label for="fname">Gender</label>
+     <input type="radio" name="gender" value="male" checked > Male
+     <input type="radio" name="gender" value="female" > Female
+     <input type="radio" name="gender" value="other"> Other
+    <br><br>
+    <label for="fname">Phone Number </label>
+    <input type="text" name="phone">
+    <br><br>
+    <label for="fname">Select the purpose to visit the website</label>
+    <input type="checkbox" name="detail" value="Fashion">Fashion
+    <input type="checkbox" name="detail" value="Shopping">Shopping
+    <input type="checkbox" name="detail" value="Both">Both
+    <br><br>
+    <input  type="submit" name="Submit" value="Submit">
+    <br><br>
+  </form>
+</div>
+</body>
+</html>

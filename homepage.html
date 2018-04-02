@@ -5,86 +5,84 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Designers Pick- Online Shopping for Women and Mens</title>
   <link rel="stylesheet" href="style.css">
-
+<script type="text/javascript">
+function date_time(id)
+{
+      date = new Date;
+      year = date.getFullYear();
+      month = date.getMonth();
+      months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'Jully', 'August', 'September', 'October', 'November', 'December');
+      d = date.getDate();
+      day = date.getDay();
+      days = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+      h = date.getHours();
+      if(h<10)
+      {
+              h = "0"+h;
+      }
+      m = date.getMinutes();
+      if(m<10)
+      {
+              m = "0"+m;
+      }
+      s = date.getSeconds();
+      if(s<10)
+      {
+              s = "0"+s;
+      }
+      result = ''+days[day]+' '+months[month]+' '+d+' '+year+' '+h+':'+m+':'+s;
+      document.getElementById(id).innerHTML = result;
+      setTimeout('date_time("'+id+'");','1000');
+      return true;
+}
+</script>
 </head>
 <body >
  <header>
     <h1>DesignersPick</h1>
      <nav>
       <ul>
-           <li ><a   href="#">Home</a></li>
-           <li ><a  href="#">Customer Login</a></li>
-           <li ><a  href ="#">Contact Us</a></li>
-           <li ><a  href="#">Sign Up</a></li>
-           <li ><a  href="#">Exchange or Return</a></li>
+           <li ><a   href="homepage.html">Home</a></li>
+           <li><a href="men.html">Men</a></li>
+           <li><a href="women.html">Women</a></li>
+           <li ><a  href ="contact.html">Contact Us</a></li>
+            <li ><a  href="login.html">Login</a></li>
+           <li ><a  href="signup.html">Sign Up</a></li>
+           <li><a href ="items.xml">Popular Items</li>
+           <li ><a  href="exchange.html">Exchange or Return</a></li>
      </ul>
    </nav>
  </header>
-  <center >
-    <ul >
-        <li ><img src=men.jpg width="200" height="400"  border="5"><a href="men.html">MEN</a></li>
-        <li ><img src=women1.jpg width="200" height="400" border="5"><a href="women.html">WOMEN</a></li>
-    </ul>
-  </center>
-  <section>
-    <p>Varities Available </p>
-  </section>
-  <table >
-    <tr>
-      <th >Men</th>
-      <th >Women</th>
-    </tr>
-    <tr>
-      <td> Denim Jeans</td>
-      <td>Denim Jeans</td>
-    </tr>
-    <tr>
-      <td>Shirt</td>
-      <td>Tops</td>
-    </tr>
-    <tr>
-      <td>Accessories</td>
-    <td>Accessories</td>
-    </tr>
-    <tr>
-      <td>Bags</td>
-      <td>Handbags/Sling bags/Backpack</td>
-    </tr>
-  </table>
-  <p style="font:bold 40px Tahoma;padding-top:20px;padding-left:50px;" >List of Productss</p>
-   <ol>
-      <li>Shirt</li>
-      <li>T-Shirt</li>
-      <li>Jeans</li>
-      <li>Accessories</li>
-      <li>Tops</li>
-      <li>Belts</li>
-      <li>Bags</li>
-   </ol>
-  <form >
-    <p >Subscribe </p>
-  <h3> First name:</h3>
-   <input type="text" name="firstname">
-   <br><br>
-   <h3>Last name:</h3>
-   <input type="text" name="lastname">
-   <br><br>
-    <h3>Mail-Id:</h3>
-    <input type="text" name="mail-id" >
-    <br><br>
-     <h3>Gender:</h3>
-     <input type="radio" name="gender" value="male" checked > Male
-     <input type="radio" name="gender" value="female" > Female
-     <input type="radio" name="gender" value="other"> Other
-    <br><br>
-    <h3>Rating:</h3>
-    <input type="checkbox" name="rating" value="one"> One Star<br>
-    <input type="checkbox" name="rating" value="two" > Two Star<br>
-    <input type="checkbox" name="rating" value="three"> Three Star<br>
-    <input type="checkbox" name="rating" value="four" > Four Star<br>
-    <input type="checkbox" name="rating" value="five" > Five Star<br>
-    <br><br>
-  <input type="submit" value="Subscribe">
-  </form>
+  <center>
+<img src= "http://www.guitar-tremolo.com/includes/templates/guitar-tremolo.com/images/bannerclothes.jpg"   width="1450" height="500">
+</center>
+
+  <p>Fashion is what you’re offered four times a year by designers. And style is what you choose.</p>
+ <p>This website is all about Fashion.</p>
+<section>
+  Varities Available
+</section>
+<table border=1>
+ <tr>
+  <th>Common for men and women</th>
+  <th>Women</th>
+  <th>Men</th>
+ </tr>
+ <tr>
+   <td>Jeans</td>
+   <td>Skirts</td>
+   <td>Pants</td>
+  </tr>
+ <tr>
+   <td>T-shirts/Shirts</td>
+   <td>Short Tops</td>
+    <td>Tops</td>
+  </tr>
+ <tr>
+   <td>Accessories</td>
+   <td>---</td>
+   <td>---</td>
+ </tr>
+</table>
 </body>
 </html>

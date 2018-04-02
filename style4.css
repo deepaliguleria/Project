@@ -12,20 +12,20 @@ header{
   position:fixed;
   background: black;
   color: white;
-  padding: 20px;
-  font: bold 20px Tahoma;
+  padding: 16px;
+  font: bold 16px Tahoma;
   border-bottom: 5px solid darkseagreen;
 }
 nav ul li{
   display: inline-block;
   list-style: none;
-  padding:8px;
+  padding:4px;
   padding-bottom: 4px;
 }
 nav ul li a{
   padding-top:10px;
-  padding-left:35px;
-  padding-right:35px;
+  padding-left:30px;
+  padding-right:30px;
   color:white;
   width:75%;
   font: solid 15px Tahoma;
@@ -35,24 +35,20 @@ nav ul li a:hover {
   text-decoration:  none;
   font-weight: none
 }
-button{
-  padding-left:160px
+#trend{
+  font: bold 20px Tahoma;
+  color:#404040;
+  float:left;
+  padding-top:40px;
+  padding-left:100px;
+}
+#para{
+  font:bold 15px Tahoma;
+  color:#909090;
+  padding-top:80px;
+  padding-left:100px;
 }
 center
 {
   padding-top:150px;
-}
-p{
-  padding:10px;
-  font:  24px Tahoma;
-}
-section{
-  padding:15px;
-  font: bold 25px Tahoma;
-  margin:10px;
-}
-table{
- padding:15px;
- margin:10px;
- font:  20px Tahoma;
 }
